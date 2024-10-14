@@ -1,0 +1,102 @@
+/*set global*/
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+}
+/*mantem o cabeçalho alinhado*/
+.alinhamento-header {
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+}
+/*organizando o cabeçalho e menu*/
+#cabecalho-pagina {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    background-color: rgba(66, 90, 170, 0.856);
+}
+ul#menu {
+    display: flex;
+    padding: 10px;
+    column-gap: 10px;
+    list-style: none;
+}
+ul#menu > li > a {
+    color: white;
+    text-decoration: none;
+}
+ul#menu > li > a:hover {
+    transition: 0.3s;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgba(1, 3, 65, 0.452);
+}
+/*mantem o conteudo da pagina alinhado*/
+.centralizando-conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.alinhamento {
+    max-width: 70vw;
+    height: 75vh;
+}
+/*configurando as cores de cada categoria*/
+#cor-sports {
+    width: 100%;
+    background-color: rgb(192, 255, 213);
+}
+#cor-economy{
+    width: 100%;
+    background-color: rgb(240, 240, 135);
+}
+#cor-entretenimento {
+    width: 100vw;
+    background-color: rgb(255, 165, 165);
+}
+#cor-tecnologia {
+    width: 100vw;
+    background-color: rgb(245, 165, 212);
+}
+/*organizando o conteudo das categorias*/
+section {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 25px;
+}
+h2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+article {
+    max-width: 300px;
+}
+article:hover {
+    transition: 0.3s;
+    max-width: 300px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.137);
+}
+article > img {
+    max-width: 300px;
+}
+.ler-mais {
+    text-decoration: none;
+    padding: 1px 5px 5px 5px;
+    color: white;
+    background-color: rgb(65, 155, 65);
+}
+.ler-mais:hover {
+    transition: 0.3s;
+    padding: 1px 5px 5px 5px;
+    background-color: rgb(31, 71, 31);
+}
+
